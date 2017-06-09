@@ -1,0 +1,935 @@
+﻿Variable,Grouping 1,Grouping 2,Base vs Marketing
+Actual,Dependent,Dependent,Dependent
+Predicted,,EXCLUDE,EXCLUDE
+Category - Can.Volume Sales - Drug,Category,Category,Base
+Category - Can.Volume Sales - Food,Category,Category,Base
+SNACKS.PR Impressions,PR,PR,Marketing
+PRIVATE LABEL - CAN.Base Price (USE),Base Price,Competitive Base Price,Competition
+SNACKS - CANS.Base Price (Volume),Base Price,Base Price,Base
+SNACKS - CANS.Base Price (Volume) - Drug,Base Price,Base Price,Base
+SNACKS - CANS.Base Price (Volume) - Food,Base Price,Base Price,Base
+SNACKS.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+SNACKS.Digital Display Impressions,Digital,Display,Marketing
+SNACKS - CANS.Quad Week %ACV _v3 - Drug,Distribution,Distribution,Base
+SNACKS - CANS.Quad Week %ACV _v3 - Food,Distribution,Distribution,Base
+SNACKS - CANS.Total FSIs,In Store,FSIs,Marketing
+Constant.Intercept,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.California - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Great Lakes - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mid-South - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Northeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Plains - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Food,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Central - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Southeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Food",Intercept,Intercept,Base
+SNACKS.OLV Impressions,Digital,Online Video,Marketing
+SNACKS.Radio Total TRPs,Radio,Radio,Marketing
+SNACKS.Print Impressions,Print,Print,Marketing
+New Years.Dummy,Seasonality,Seasonality,Base
+Thanksgiving.Dummy,Seasonality,Seasonality,Base
+Valentines Day .Dummy,Seasonality,Seasonality,Base
+SNACKS.Total Social Media,Social Media,Social Media,Marketing
+DIAMOND FOODS INC-SNACK NUTS - CAN.Any Merch Volume,Trade,Competitive Trade,Competition
+KRAFT HEINZ CO-SNACK NUTS - CAN.Any Merch Volume,Trade,Competitive Trade,Competition
+PRIVATE LABEL-SNACK NUTS - CAN.Any Merch Volume,Trade,Competitive Trade,Competition
+SNACKS - CANS.Display Volume - Food,Trade,Trade,Marketing
+SNACKS - CANS.Display Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS - CANS.Feature & Display Volume - Drug,Trade,Trade,Marketing
+SNACKS - CANS.Feature & Display Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - CANS.Feature Volume - Drug,Trade,Trade,Marketing
+SNACKS - CANS.Feature Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - CANS.Feature Volume - Food,Trade,Trade,Marketing
+SNACKS - CANS.Feature Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS - CANS.TPR Volume - Drug,Trade,Trade,Marketing
+SNACKS - CANS.TPR Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - CANS.TPR Volume - Food,Trade,Trade,Marketing
+SNACKS - CANS.TPR Volume - Food Lag,Trade,Trade,Marketing
+SNACKS- CANS.Display Volume - Drug,Trade,Trade,Marketing
+SNACKS- CANS.Display Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS.Total TV,TV,Snacks TV,Marketing
+Actual,Dependent,Dependent,Dependent
+Predicted,,EXCLUDE,EXCLUDE
+Category - Bag.Volume Sales - Drug,Category,Category,Base
+Category - Bag.Volume Sales - Food,Category,Category,Base
+SNACKS - BAGS (Minus Peg Bags).Volume Sales ,Actual Sales,Actual Sales,Base
+SNACKS - PEG BAGS.Volume Sales,Actual Sales,Actual Sales,Base
+SNACKS.PR Impressions,PR,PR,Marketing
+SNACKS - BAGS.Base Price (Volume),Base Price,Base Price,Base
+SNACKS - BAGS.Base Price (Volume) - Drug,Base Price,Base Price,Base
+SNACKS - BAGS.Base Price (Volume) - Food,Base Price,Base Price,Base
+SNACKS.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+SNACKS.Digital Coupon Redemption,In Store,Digital Coupons,Marketing
+SNACKS.Digital Display Impressions,Digital,Display,Marketing
+SNACKS - BAGS.Quad Week %ACV _v3 - Drug,Distribution,Distribution,Base
+SNACKS = BAGS.Quad Week %ACV _v3 - Food,Distribution,Distribution,Base
+SNACKS - BAGS.Total FSIs,In Store,FSIs,Marketing
+Constant.Intercept,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.California - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Great Lakes - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mid-South - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Northeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Plains - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Food,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Central - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Southeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Food",Intercept,Intercept,Base
+SNACKS.OLV Impressions,Digital,Online Video,Marketing
+SNACKS.Radio Total TRPs,Radio,Radio,Marketing
+SNACKS.Total Paid Search Clicks,Paid Search,Paid Search,Marketing
+SNACKS COMPETITION.California Almond Board_Almonds Print Impressions,Print,Competitive Media,Competition
+SNACKS COMPETITION.Planters_Total Print Impressions,Print,Competitive Media,Competition
+SNACKS COMPETITION.Wonderful Pistachios_Total Print Impressions,Print,Competitive Media,Competition
+SNACKS.Print Impressions,Print,Print,Marketing
+Christmas.Dummy,Seasonality,Seasonality,Base
+New Years.Dummy,Seasonality,Seasonality,Base
+Thanksgiving.Dummy,Seasonality,Seasonality,Base
+Valentines Day .Dummy,Seasonality,Seasonality,Base
+SNACKS.Blog Total Impressions,Social Media,Social Media,Marketing
+SNACKS.Facebook Impressions Paid,Social Media,Social Media,Marketing
+SNACKS.Instagram Impressions Paid,Social Media,Social Media,Marketing
+SNACKS.Total Social Media,Social Media,Social Media,Marketing
+SNACKS.Twitter Impressions Paid,Social Media,Social Media,Marketing
+SNACKS - BAGS.Display Volume - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Display Volume - Food,Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display Volume - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display Volume - Food,Trade,Trade,Marketing
+SNACKS - BAGS.Feature Volume - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Feature Volume - Food,Trade,Trade,Marketing
+SNACKS - BAGS.TPr Volume - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.TPR Volume - Food,Trade,Trade,Marketing
+SNACKS.Total TV,TV,Snacks TV,Marketing
+Actual,Dependent,Dependent,Dependent
+Predicted,,EXCLUDE,EXCLUDE
+ALMOND BREEZE.PR Impressions,PR,PR,Marketing
+Category - RFG Almond Milk.Volume Sales,Category,Category,Base
+Category - RFG NON DAIRY BEVERAGES.Volume Sales,Category,Category,Base
+BLUE DIAMOND GROWERS-RFG ALM.Base Price,Base Price,Base Price,Base
+BLUE DIAMOND GROWERS-RFG ALM.Base Price - Drug,Base Price,Base Price,Base
+BLUE DIAMOND GROWERS-RFG ALM.Base Price - Food,Base Price,Base Price,Base
+CALIFIA FARMS LLC-RFG ALM.Base Price,Base Price,Competitive Base Price,Competition
+PACIFIC FOODS OF OREGON INC-SS ALM.Base Price,Base Price,Competitive Base Price,Competition
+ALMOND BREEZE.Total Catalina Impressions (Excluding Event 1),Catalina,Catalina,Marketing
+ALMOND BREEZE.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+ALMOND BREEZE.Digital Display Impressions,Digital,Display,Marketing
+ALMOND BREEZE.Website Almond Breeze.com Visitors,Website,Website,Marketing
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3,Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.Total FSI,In Store,FSIs,Marketing
+Constant.Intercept,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.California - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Great Lakes - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mid-South - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Multi Outlet,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Multi Outlet,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Northeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Plains - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Multi Outlet,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Central - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Southeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Multi Outlet",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Multi Outlet",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Multi Outlet,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Multi Outlet",Intercept,Intercept,Base
+ALMOND BREEZE.Total Paid Search Clicks,Paid Search,Paid Search,Marketing
+Christmas.Dummy,Seasonality,Seasonality,Base
+New Years.Dummy,Seasonality,Seasonality,Base
+Thanksgiving.Dummy,Seasonality,Seasonality,Base
+Valentines Day .Dummy,Seasonality,Seasonality,Base
+ALMOND BREEZE.Blog Total Impressions,Social Media,Social Media,Marketing
+ALMOND BREEZE.Facebook Impressions Paid,Social Media,Social Media,Marketing
+ALMOND BREEZE.Instagram Impressions Paid,Social Media,Social Media,Marketing
+ALMOND BREEZE.Twitter Impressions Paid,Social Media,Social Media,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Display Volume - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Display Volume - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature & Display Volume - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature & Display Volume - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature Volume - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature Volume - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR Volume - Drug ,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR Volume - Food,Trade,Trade,Marketing
+CALIFIA FARMS LLC-RFG ALM.Any Merch,Trade,Competitive Trade,Competition
+PACIFIC FOODS OF OREGON INC-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+PRIVATE LABEL-RFG ALM.Any Merch,Trade,Competitive Trade,Competition
+PRIVATE LABEL-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+WHITEWAVE FOODS CO-RFG ALM.Any Merch,Trade,Competitive Trade,Competition
+WHITEWAVE FOODS CO-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+ALMOND BREEZE.TV - Campaign - Summer Olympics,TV,Breeze TV,Marketing
+Total Almonds Category MULO Switching.Volume Sales,Category,Category,Base
+Total Almonds Category.Volume Sales,Category,Category,Base
+SNACKS - BAGS & Private Label.Gap Base Price,Base Price,Competitive Base Price,Competition
+SNACKS.Digital Coupon Redemption,In Store,Digital Coupons,Marketing
+DIAMOND FOODS INC - CAN.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+KRAFT HEINZ CO - CAN.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+PRIVATE LABEL - CAN.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+"Blue Diamond.Market Dummy v2.Albany, NY - Food",Intercept,Intercept,Base
+SNACKS.Total Paid Search Clicks,Paid Search,Paid Search,Marketing
+SNACKS COMPETITION.California Almond Board_Almonds Print Impressions,Print,Competitive Print,Competition
+SNACKS COMPETITION.Wonderful Pistachios_Total Print Impressions,Print,Competitive Print,Competition
+SNACKS - CANS.Feature - Volume 1.31.2016,Trade,Trade,Marketing
+SNACKS - CANS.Feature - Volume 5.18.2014,Trade,Trade,Marketing
+SNACKS - CANS.Feature Volume - Drug - Pre-Christmas Overlays,Trade,Trade,Marketing
+Total Almonds Category MULO Switching.Volume Sales,Category,Category,Base
+Total Almonds Category.Volume Sales - Drug,Category,Category,Base
+Total Almonds Category.Volume Sales - Food,Category,Category,Base
+SNACKS Bags - Private Label.Gap Base Price,Base Price,Competitive Base Price,Competition
+SNACKS.All Other Inmar Circulation,In Store,All Other Coupons,Marketing
+SNACKS - BAGS.Display Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.Display Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.Feature Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.Feature Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.TPR Volume - Drug (LAG),Trade,Trade,Marketing
+SNACKS - BAGS.TPR Volume - Food (LAG),Trade,Trade,Marketing
+Category - RFG NON DAIRY BEVERAGES.Volume Sales - Drug,Category,Category,Base
+Category - RFG NON DAIRY BEVERAGES.Volume Sales - Food,Category,Category,Base
+Category - RFG NON DAIRY BEVERAGES.Volume Sales - MULO Channel Switching,Category,Category,Base
+PRIVATE LABEL-RFG ALM.Base Price,Base Price,Competitive Base Price,Competition
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 - All Other SKUs,Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 - Increasing SKUs (Drug Only),Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 - Increasing SKUs (Food Only),Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 (Pre-Split),Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.1/17/2016,In Store,FSIs,Marketing
+ALMOND BREEZE - CHILLED.7/12/2015,In Store,FSIs,Marketing
+ALMOND BREEZE - CHILLED.7/24/2016,In Store,FSIs,Marketing
+ALMOND BREEZE - CHILLED.8/17/2014,In Store,FSIs,Marketing
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Food",Intercept,Intercept,Base
+ALMOND BREEZE - CHILLED.News America Total Circulation,In Store,News America,Marketing
+ALMOND BREEZE.OLV Impressions,Digital,Online Video,Marketing
+ALMOND BREEZE.Total Paid Search Impressions,Paid Search,Paid Search,Marketing
+AB COMPETITION.Print Lactaid Impressions,Print,Competitive Media,Competition
+AB COMPETITION.Print Silk Almondmilk Impressions,Print,Competitive Media,Competition
+AB COMPETITION.Print Silk Creamy Cashew Impressions,Print,Competitive Media,Competition
+AB COMPETITION.Print Silk Impressions,Print,Competitive Media,Competition
+Post Christmas.Dummy,Seasonality,Seasonality,Base
+Almond Breeze.Total Social Media,Social Media,Social Media,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature Volume - Food (LAG),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR Volume - Food (LAG),Trade,Trade,Marketing
+ALMOND BREEZE.Almond Breeze FY 2014 TV Integration,TV,Breeze TV,Marketing
+ALMOND BREEZE.Competitive TV Lactaid Imp,TV,Competitive TV,Competition
+ALMOND BREEZE.Competitive TV Milk Music Imp,TV,Competitive TV,Competition
+ALMOND BREEZE.TV - Campaign - Best Almonds Make Best Almondmilk,TV,Breeze TV,Marketing
+ALMOND BREEZE.TV - Campaign - Breezeville,TV,Breeze TV,Marketing
+Actual,Dependent,Dependent,Dependent
+Predicted,,EXCLUDE,EXCLUDE
+Category - SS NON DAIRY BEVERAGES.Volume Sales (Minus BDG) - Drug,Category,Category,Base
+Category - SS NON DAIRY BEVERAGES.Volume Sales (Minus BDG) - Food,Category,Category,Base
+BLUE DIAMOND GROWERS-SS ALM.Base Price,Base Price,Base Price,Base
+PRIVATE LABEL-SS ALM.Base Price,Base Price,Competitive Base Price,Competition
+WHITEWAVE FOODS CO-SS ALM.Base Price,Base Price,Competitive Base Price,Competition
+ALMOND BREEZE - ASEPTIC.Quad Week %ACV _v3 - Food,Distribution,Distribution,Base
+Constant.Intercept,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.California - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Great Lakes - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mid-South - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Northeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Plains - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Food,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Central - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Southeast - IRI Standard - Drug,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Food",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Food",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West - IRI Standard - Drug,Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Food,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Food",Intercept,Intercept,Base
+Christmas.Dummy,Seasonality,Seasonality,Base
+January.Seasonality,Seasonality,Seasonality,Base
+New Years.Dummy,Seasonality,Seasonality,Base
+Thanksgiving.Dummy,Seasonality,Seasonality,Base
+Valentines Day .Dummy,Seasonality,Seasonality,Base
+BLUE DIAMOND GROWERS-SS ALM.Display Units - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Display Units - Drug (LAG),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Display Units - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Display Units - Food (Lag),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature and Display Units - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature and Display Units - Food (LAG),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature Units - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature Units - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature Units - Food (LAG),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR Units - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR Units - Drug (LAG),Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR Units - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR Units - Food (LAG),Trade,Trade,Marketing
+PACIFIC FOODS OF OREGON INC-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+PRIVATE LABEL-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+PRIVATE LABEL-SS COCO.Any Merch,Trade,Competitive Trade,Competition
+PRIVATE LABEL-SS SOY.Any Merch,Trade,Competitive Trade,Competition
+WHITEWAVE FOODS CO-SS ALM.Any Merch,Trade,Competitive Trade,Competition
+WHITEWAVE FOODS CO-SS COCO.Any Merch,Trade,Competitive Trade,Competition
+WHITEWAVE FOODS CO-SS SOY.Any Merch,Trade,Competitive Trade,Competition
+ALMOND BREEZE.Non-Olympic PR Impressions,PR,PR,Marketing
+ALMOND BREEZE.Olympics PR Impressions,PR,PR,Marketing
+WHITEWAVE FOODS CO-RFG ALM.Base Price,Base Price,Competitive Base Price,Competition
+ALMOND BREEZE.Non-Olympic Display Impressions,Digital,Display,Marketing
+ALMOND BREEZE.Olympic Display Impressions,Digital,Display,Marketing
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 - All Other SKUs 1,Distribution,Distribution,Base
+ALMOND BREEZE - CHILLED.Quad Week %ACV _v3 - All Other SKUs 2,Distribution,Distribution,Base
+WHITEWAVE FOODS CO-RFG ALM.ACV Weighted Distv2,Distribution,Competitive Distribution,Competition
+SNACKS - CANS.10/13/2013,In Store,FSIs,Marketing
+ALMOND BREEZE.Print Impressions (No Curves),Print,Print,Marketing
+SNACKS.Olympics PR Impressions,PR,PR,Marketing
+SNACKS.PR Impressions excl. Olympics,PR,PR,Marketing
+SNACKS.Display Impressions excl. Olympics,Digital,Display,Marketing
+SNACKS.Olympic Display Impressions,Digital,Display,Marketing
+BLUE DIAMOND GROWERS - BAG.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+SNACKS - CANS.1/25/2015,In Store,FSIs,Marketing
+SNACKS - CANS.1/31/2016,In Store,FSIs,Marketing
+SNACKS - CANS.10/11/2015,In Store,FSIs,Marketing
+SNACKS - CANS.10/2/2016,In Store,FSIs,Marketing
+SNACKS - CANS.11/23/2014,In Store,FSIs,Marketing
+SNACKS - CANS.3/29/2015,In Store,FSIs,Marketing
+SNACKS - CANS.4/24/2016,In Store,FSIs,Marketing
+SNACKS - CANS.4/6/2014,In Store,FSIs,Marketing
+SNACKS - CANS.5/11/2014,In Store,FSIs,Marketing
+SNACKS - CANS.6/14/2015,In Store,FSIs,Marketing
+SNACKS - CANS.7/24/2016,In Store,FSIs,Marketing
+SNACKS - CANS.8/17/2014,In Store,FSIs,Marketing
+SNACKS - CANS.9/22/2013,In Store,FSIs,Marketing
+SNACK-CANS.Total News America Store Count,In Store,News America,Marketing
+SNACKS.Non-Olympic OLV Impressions,Digital,Online Video,Marketing
+SNACKS.Olympic Online Video Impressions,Digital,Online Video,Marketing
+Cans.MULO Seasonality Index,Seasonality,Seasonality,Base
+SNACKS - CANS.Feature & Display Volume - Food,Trade,Trade,Marketing
+SNACKS - CANS.Feature & Display Volume - Food (LAG),Trade,Trade,Marketing
+SNACKS.TV - Campaign - Football,TV,Snacks TV,Marketing
+SNACKS.TV - Campaign - Winter Olympics,TV,Snacks TV,Marketing
+PRIVATE LABEL - BAG.Base Price (USE),Base Price,Competitive Base Price,Competition
+BLUE DIAMOND GROWERS - CAN.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+THE WONDERFUL CO - BAG.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+SNACKS - BAGS.1/25/2015,In Store,FSIs,Marketing
+SNACKS - BAGS.1/26/2014,In Store,FSIs,Marketing
+SNACKS - BAGS.1/31/2016,In Store,FSIs,Marketing
+SNACKS - BAGS.10/11/2015,In Store,FSIs,Marketing
+SNACKS - BAGS.11/23/2014,In Store,FSIs,Marketing
+SNACKS - BAGS.3/29/2015,In Store,FSIs,Marketing
+SNACKS - BAGS.4/24/2016,In Store,FSIs,Marketing
+SNACKS - BAGS.5/11/2014,In Store,FSIs,Marketing
+SNACKS - BAGS.6/14/2015,In Store,FSIs,Marketing
+SNACKS - BAGS.7/24/2016,In Store,FSIs,Marketing
+SNACKS - BAGS.9/22/2013,In Store,FSIs,Marketing
+Bags.MULO Seasonality Index,Seasonality,Seasonality,Base
+Early March.Dummy,Seasonality,Seasonality,Base
+BLUE DIAMOND GROWERS - CAN.Any Merch Volume,Trade,Competitive Trade,Competition
+ALMOND BREEZE.Print Impressions,Print,Print,Marketing
+Chilled.MULO Seasonality Index,Seasonality,Seasonality,Base
+SNACKS - CANS.Volume Price,Base Price,Base Price,Base
+Snacks - Cans.%ACV 4 Week Lag,Distribution,Distribution,Base
+"Blue Diamond.Market Dummy v2.Atlanta, GA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Baltimore, MD/Washington D.C. - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Birmingham/Montgomery, AL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boise, ID - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Boston, MA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Buffalo/Rochester, NY - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Charlotte, NC - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Chicago, IL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cincinnati/Dayton, OH - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Cleveland, OH - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Columbus, OH - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Dallas/Ft. Worth, TX - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Denver, CO - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Des Moines, IA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Detroit, MI - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Grand Rapids, MI - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Green Bay, WI - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Harrisburg/Scranton, PA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Hartford, CT/Springfield, MA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Houston, TX - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Indianapolis, IN - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Jacksonville, FL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Kansas City, KS - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Knoxville, TN - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Las Vegas, NV - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Little Rock, AR - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Los Angeles, CA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Louisville, KY - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Memphis, TN - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Miami/Ft. Lauderdale, FL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Milwaukee, WI - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Minneapolis/St. Paul, MN - Walmart",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.Mississippi - Walmart,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Nashville, TN - Walmart",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.New England - Walmart,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New Orleans, LA/Mobile, AL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.New York, NY - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Oklahoma City, OK - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Omaha, NE - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Orlando, FL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Peoria/Springfield, IL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Philadelphia, PA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Phoenix/Tucson, AZ - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Pittsburgh, PA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Portland, OR - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Providence, RI - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Raleigh/Greensboro, NC - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Richmond/Norfolk, VA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Roanoke, VA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Sacramento, CA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Salt Lake City, UT - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Diego, CA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.San Francisco/Oakland, CA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Seattle/Tacoma, WA - Walmart",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.South Carolina - Walmart,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Spokane, WA - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.St. Louis, MO - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Syracuse, NY - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tampa/St. Petersburg, FL - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Toledo, OH - Walmart",Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Tulsa, OK - Walmart",Intercept,Intercept,Base
+Blue Diamond.Market Dummy v2.West Texas/New Mexico - Walmart,Intercept,Intercept,Base
+"Blue Diamond.Market Dummy v2.Wichita, KS - Walmart",Intercept,Intercept,Base
+Cans.WMT Seasonality Index,Seasonality,Seasonality,Base
+SNACKS.TV - Campaign - Get Your Good Going,TV,Snacks TV,Marketing
+SNACKS.TV - Campaign - Summer Olympics,TV,Snacks TV,Marketing
+BAG - Almonds.Volume Sales - MULO Channel Switching,Category,Category,Base
+Price Change - Initial Impact.July-Aug 2016,Base Price,Base Price,Base
+Price Change - Initial Impact.June 2016,Base Price,Base Price,Base
+SNACKS - BAGS.Volume Price WMT,Base Price,Base Price,Base
+SNACKS - BAGS.10/2/2016,In Store,FSIs,Marketing
+SNACKS.Total Paid Search Impressions,Paid Search,Paid Search,Marketing
+SNACKS.Print Impressions - FY 2015,Print,Print,Marketing
+SNACKS.Print Impressions - FY 2016-2017,Print,Print,Marketing
+2nd Week July.Dummy,Seasonality,Seasonality,Base
+Pre-Christmas.Dummy,Seasonality,Seasonality,Base
+ALMOND BREEZE - ASEPTIC.Volume Price,Base Price,Base Price,Base
+Category - SS NON DAIRY BEVERAGES.Volume Sales - MULO Channel Switching,Category,Category,Base
+Almond Breeze - Aspetic 32oz.%ACV 4 Week Lag,Distribution,Distribution,Base
+Almond Breeze - Aspetic 64oz.%ACV 4 Week Lag,Distribution,Distribution,Base
+ALMOND BREEZE - ASEPTIC.1/17/2016,In Store,FSIs,Marketing
+ALMOND BREEZE - ASEPTIC.10/23/2016,In Store,FSIs,Marketing
+ALMOND BREEZE - ASEPTIC.7/12/2015,In Store,FSIs,Marketing
+ALMOND BREEZE - ASEPTIC.7/24/2016,In Store,FSIs,Marketing
+Blue Diamond.Market Dummy v2.Total US - Walmart,Intercept,Intercept,Base
+ALMOND BREEZE.09-Oct-2016 Dummy,Hurricane,Hurricane,Hurricane
+Aseptic.WMT Seasonality Index,Seasonality,Seasonality,Base
+SNACKS - CANS.1/26/2014,In Store,FSIs,Marketing
+SNACKS - CANS.11/3/2013,In Store,FSIs,Marketing
+ALMOND BREEZE.All Other Inmar Circulation,In Store,All Other Coupons,Marketing
+Category - SS NON DAIRY BEVERAGES.Volume Sales,Category,Category,Base
+ALMOND BREEZE.All Other Inmar Circulation,In Store,All Other Coupons,Marketing
+ALMOND BREEZE - ASEPTIC.Quad Week %ACV _v3,Distribution,Distribution,Base
+WHITEWAVE FOODS CO-SS ALM.ACV Weighted Dist_USE,Distribution,Competitive Distribution,Competition
+SNACKS - BAGS.10/13/2013,In Store,FSIs,Marketing
+SNACKS - BAGS.8/17/2014,In Store,FSIs,Marketing
+2nd Week January.Dummy,Seasonality,Seasonality,Base
+Christmas v2.Dummy,Seasonality,Seasonality,Base
+Memorial Day.Dummy,Seasonality,Seasonality,Base
+SS.MULO Seasonality Index,Seasonality,Seasonality,Base
+ALMOND BREEZE.Social Media excl. Blog,Social Media,Social Media,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Any Merch,Trade,Competitive Trade,Competition
+ALMOND BREEZE.Competitive TV Silk Imp,TV,Competitive TV,Competition
+ALMOND BREEZE.Competitive TV Silk Purealmond Imp,TV,Competitive TV,Competition
+Snacks - Cans.%ACV 1 Week Lag,Distribution,Distribution,Base
+FSI - $1.50 off two 10oz+ Bags/$1.00 off two 5oz Bags OR 6oz Cans.FSI Aggregate,In Store,FSIs,Marketing
+CHRISTMAS 2015.CHRISTMAS 2015,Seasonality,Seasonality,Base
+CHRISTMAS 2016.CHRISTMAS 2016,Seasonality,Seasonality,Base
+NUTS CUSTOM - WALMART.CUSTOM,Seasonality,Seasonality,Base
+SNACK NUTS (10/9/2016) - WALMART.HURRICANE,Seasonality,Seasonality,Base
+Cans.MULO Seasonality Index - Drug,Seasonality,Seasonality,Base
+Cans.MULO Seasonality Index - Food,Seasonality,Seasonality,Base
+SNACKS.Total TV - Drug,TV,Snacks TV,Marketing
+SNACKS.Total TV - Food,TV,Snacks TV,Marketing
+ALMOND BREEZE - ASEPTIC.Quad Week %ACV _v3 - Drug,Distribution,Distribution,Base
+PACIFIC FOODS OF OREGON INC-SS ALM.ACV Weighted Dist_USE,Distribution,Competitive Distribution,Competition
+ALMOND BREEZE - ASEPTIC.8/17/2014,In Store,FSIs,Marketing
+ALMOND BREEZE.Competitive TV Silk Creamy Cashew Imp,TV,Competitive TV,Competition
+SNACKS - CANS.Drug Promo - 12/22/2013,Trade,Trade,Marketing
+SNACKS - CANS.Drug Promo Overlay - 12/21/2014,Trade,Trade,Marketing
+SNACKS - CANS.Drug Promo Overlay - 3/23/2014,Trade,Trade,Marketing
+SNACKS - CANS.Drug Promo Overlay - 4/13/2014,Trade,Trade,Marketing
+SNACKS - CANS.Drug Promo Overlay - 6/21/2015,Trade,Trade,Marketing
+SNACKS - CANS.Drug Promo Overlay - 7/27/2014,Trade,Trade,Marketing
+SNACKS - CANS.SW Promo Overlay - FOOD Lag,Trade,Trade,Marketing
+SNACKS - CANS.SW Promo Overlays - Food,Trade,Trade,Marketing
+Month of April.Seasonality,Seasonality,Seasonality,Base
+Month of August.Seasonality,Seasonality,Seasonality,Base
+Month of December.Seasonaltiy,Seasonality,Seasonality,Base
+Month of July.Seasonality,Seasonality,Seasonality,Base
+Month of June.Seasonality,Seasonality,Seasonality,Base
+Month of May.Seasonality,Seasonality,Seasonality,Base
+Month of November.Seasonality,Seasonality,Seasonality,Base
+Month of October.Seasonality,Seasonality,Seasonality,Base
+Month of September.Seasonality,Seasonality,Seasonality,Base
+SNACKS.Social Media Impressions - excl. Blog,Social Media,Social Media,Marketing
+SNACK NUTS.Competitive TV Total Wonderful Impressions,TV,Competitive TV,Competition
+BDG-SS ALM.SW Storm Dummy - 2 Oct 2016,Hurricane,Hurricane,Hurricane
+BDG_SS ALM.Salt Lake Food Overlay - 11 Jan 15,Trade,Trade,Marketing
+BDG-SS ALM.Buf and Syr Markets Neg Overlay - Oct 16,Trade,Trade,Marketing
+BDG-SS ALM.Double Peak Overlay Food - Sep & Dec 16,Trade,Trade,Marketing
+BDG-SS ALM.Double Peak Overlay Food - Sep & Dec 16 v2,Trade,Trade,Marketing
+Month of March.Seasonality,Seasonality,Seasonality,Base
+SNACK NUTS.Competitive TV Total Planters Almonds,TV,Competitive TV,Competition
+ALMOND BREEZE - ASEPTIC - WMT.Social Media Impressions - Total,Social Media,Social Media,Marketing
+SNACKS.Olympics PR Impressions v2,PR,PR,Marketing
+SNACKS - CANS.Any Merch - High Response Drug,Trade,Trade,Marketing
+SNACKS - CANS.Boise Overlay Food - March 2016,Trade,Trade,Marketing
+SNACKS - CANS.Market Residual Overlays,Trade,Trade,Marketing
+SNACKS - CANS.SW Promo Overlay - Food New Orleans,Trade,Trade,Marketing
+SNACKS - CANS.SW Promo Overlays - Birmingham Food,Trade,Trade,Marketing
+SNACKS - CANS.SW Promo Overlays - Jacksonville Food,Trade,Trade,Marketing
+SNACKS - BAGS.Average Price v2 - Food,Base Price,Base Price,Base
+SNACKS - BAGS.Average Price v2.Average Price v2 - Drug,Base Price,Base Price,Base
+SNACKS - BAGS.4/6/2014,In Store,FSIs,Marketing
+SNACK-CANS.News America Carts Circulation,In Store,News America,Marketing
+SNACKS.Olympics PR Impressions v2,PR,PR,Marketing
+Bags.MULO Seasonality Index - Drug,Seasonality,Seasonality,Base
+Bags.MULO Seasonality Index - Food,Seasonality,Seasonality,Base
+SNACKS - BAGS.Food Promo Overlay 2/1/2015,Trade,Trade,Marketing
+SNACKS - BAGS.Food Promo Overlay 3/6/2016,Trade,Trade,Marketing
+SNACKS - BAGS.Food Promo Overlay 6/1/2014,Trade,Trade,Marketing
+SNACKS - BAGS.Market Residual Overlays,Trade,Trade,Marketing
+SNACKS - BAGS.Plains Drug Trade Overlay,Trade,Trade,Marketing
+Wonderful-Snack Nuts - Aug 2016 onwards.Volume Sales,Category,Competition,Competition
+THE WONDERFUL CO-SNACK NUTS.Any Merch,Trade,Competitive Trade,Competition
+CHILLED.Circulation Wear Out,In Store,News America,Marketing
+BREEZE.Olympics PR Impressions,PR,PR,Marketing
+Month of February.Seasonality,Seasonality,Seasonality,Base
+Month of January.Seasonality,Seasonality,Seasonality,Base
+SNACKS - CANS.WMT Price for F+D,Base Price,Competitive Base Price,Competition
+DIAMOND FOODS INC - BAG.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+DIAMOND FOODS INC - Cashews.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+PRIVATE LABEL - BAG.ACV Weighted Distribution,Distribution,Competitive Distribution,Competition
+SNACKS - CANS.Quad Week %ACV _v3,Distribution,Distribution,Base
+SNACKS.Circulation Wear Out (No Retention),In Store,News America,Marketing
+SNACKS.Circulation Wear Out (Retention),In Store,News America,Marketing
+SNACKS.Radio TRPs,Radio,Radio,Marketing
+DIAMOND FOODS INC - CASHEWS HALVES AND PIECES.Any Merch (Trade),Trade,Competitive Trade,Competition
+PEPSICO INC - PISTACHIOS.Any Merch (Trade),Trade,Competitive Trade,Competition
+PRIVATE LABEL - PISTACHIOS.Any Merch (Trade),Trade,Competitive Trade,Competition
+SNACKS - BAGS.WMT Price for F+D,Base Price,Competitive Base Price,Competition
+SNACKS.Circulation Wear Out (No Retention),In Store,News America,Marketing
+SNACKS.Circulation Wear Out (Retention),In Store,News America,Marketing
+SNACKS.Radio TRPs,Radio,Radio,Marketing
+SNACKS - BAGS.WMT Price for F+D,Base Price,Competitive Base Price,Competition
+SNACKS.Circulation Wear Out (No Retention),In Store,News America,Marketing
+SNACKS.Circulation Wear Out (Retention),In Store,News America,Marketing
+SNACKS.Radio TRPs,Radio,Radio,Marketing
+PRIVATE LABEL-SS ALM.Base Volume Sales,Category,Competition,Competition
+ASEPTIC.Circulation Wear Out (No Retention),In Store,News America,Marketing
+ASEPTIC.Circulation Wear Out (Retention),In Store,News America,Marketing
+BREEZE.PR Impressions,PR,PR,Marketing
+WHITEWAVE FOODS CO-RFG ALM.Volume Sales,Category,Competition,Competition
+CHILLED.Circulation Wear Out (No Retention),In Store,News America,Marketing
+CHILLED.Circulation Wear Out (Retention),In Store,News America,Marketing
+California Drug.Sales Depletion,Trade,Trade,Marketing
+Great Lakes Drug.Beginning Period,Trade,Trade,Marketing
+AB COMPETITION.Print Silk Purealmond Impressions,Print,Competitive Print,Competition
+SNACKS.PR Impressions v2,PR,PR,Marketing
+BLUE DIAMOND GROWERS - BAG.Base Price (USE),Base Price,Base Price,Base
+KRAFT HEINZ CO - CAN.Base Price (USE),Base Price,Competitive Base Price,Competition
+SNACKS - CANS.Display %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - CANS.Feature %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - CANS.Feature %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS - CANS.TPR %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - CANS.TPR %ACV - Discount - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Display %ACV - Discount - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature %ACV - Discount -Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature & Display %ACV - Discount - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.Feature & Display %ACV - Discount - Food,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR %ACV - Discount - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR %ACV - Discount - Food,Trade,Trade,Marketing
+WHITEWAVE FOODS CO-SS COCO.Base Price,Base Price,Competitive Base Price,Competition
+WHITEWAVE FOODS CO-SS AO NUT.ACV Weighted Distv2,Distribution,Competitive Distribution,Competition
+WHITEWAVE FOODS CO-SS COCO.ACV Weighted Distv2,Distribution,Competitive Distribution,Competition
+BLUE DIAMOND GROWERS-SS ALM.Display %ACV - Discount,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature %ACV - Discount,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Feature & Display %ACV - Discount,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR %ACV - Discount - Drug,Trade,Trade,Marketing
+BLUE DIAMOND GROWERS-SS ALM.TPR %ACV - Discount - Food,Trade,Trade,Marketing
+WMT Sales.1/1/2017 Dummy,Category,Category,Base
+Snacks.News America Market Store Count,In Store,News America,Marketing
+SNACKS - CANS.Feature & Display %ACV - Check,Trade,Trade,Marketing
+Peg Bags.Base Price,Base Price,Competitive Base Price,Competition
+DIAMOND FOODS INC - Pistachios.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+KRAFT HEINZ CO - Almonds.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+KRAFT HEINZ CO - Cashews.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+PRIVATE LABEL - Almonds.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+PRIVATE LABEL - Pistachios.ACV Weighted Distribution v2,Distribution,Competitive Distribution,Competition
+Snacks.News America Market Store Count,In Store,News America,Marketing
+SNACKS.Print Impressions (No Curves),Print,Print,Marketing
+DIAMOND FOODS INC - MIXED NUTS-REGULAR(WITH PEANUTS).Any Merch (Trade),Trade,Competitive Trade,Competition
+DIAMOND FOODS INC - PISTACHIOS.Any Merch (Trade),Trade,Competitive Trade,Competition
+SEVERN PEANUT CO - MIXED NUTS-REGULAR(WITH PEANUTS).Any Merch (Trade),Trade,Competitive Trade,Competition
+SNACKS - BAGS.Display %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Display %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS - BAGS.Feature %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS - BAGS.Feature %ACV - Discoutn - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.Feature & Display %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS - BAGS.TPR %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - BAGS.TPR %ACV - Discount - Food,Trade,Trade,Marketing
+THE WONDERFUL CO - ALMONDS.Any Merch (Trade),Trade,Competitive Trade,Competition
+Almond Breeze.Total TV,TV,Breeze TV,Marketing
+ALMOND BREEZE.Catalina Event 2 Impressions,In Store,Catalina,Marketing
+ALMOND BREEZE.Catalina Event 3 Impressions,In Store,Catalina,Marketing
+Snacks.News America Market Store Count,In Store,News America,Marketing
+ALMOND BREEZE.Catalina Event 2 Impressions,In Store,Catalina,Marketing
+ALMOND BREEZE.Catalina Event 3 Impressions,In Store,Catalina,Marketing
+Almond Breeze - Aseptic.News America Market Store Count,In Store,News America,Marketing
+Aseptic.F+D Price for WMT,Base Price,Competitive Base Price,Competition
+Display,Digital,Display,Marketing
+Online Video,Digital,Online Video,Marketing
+PR,PR,PR,Marketing
+Print,Print,Print,Marketing
+Social Media,Social Media,Social Media,Marketing
+TV,TV,TV,Marketing
+SNACKS.Self - Print Magazine Imps,Print,Print,Marketing
+SNACKS - CANS.Display %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS - CANS.Feature & Display %ACV - Discount - Drug,Trade,Trade,Marketing
+SNACKS - CANS.Feature & Display %ACV - Discount - Food,Trade,Trade,Marketing
+SNACKS.O The Oprah Magazine - Print Magazine Imps,Print,Print,Marketing
+SNACKS.Sunset - Print Magazine Imps,Print,Print,Marketing
+ALMOND BREEZE.TV - Total,TV,Snacks TV,Marketing
+Radio,Radio,Radio,Marketing
+ALMOND BREEZE.Catalina Event 4 Impressions,In Store,Catalina,Marketing
+Almond Breeze - Chilled.News America Market Store Count,In Store,News America,Marketing
+ALMOND BREEZE.Catalina Event 4 Impressions,In Store,Catalina,Marketing
+WHITEWAVE FOODS CO-SS AO NUT.Any Merch,Trade,Competitive Trade,Competition
+Paid Search,Paid Search,Paid Search,Marketing
+BLUE DIAMOND GROWERS-SS ALM.Base Price - Food,Base Price,Base Price,Base
+Digital Coupons,In Store,Digital Coupons,Marketing
+Online Video,Digital,Online Video,Marketing
+PR,PR,PR,Marketing
+Print,Print,Print,Marketing
+Trade,Trade,Trade,Marketing
+FSIs,In Store,FSIs,Marketing
+Radio,Radio,Radio,Marketing
+Social Media,Social Media,Social Media,Marketing
+News America,In Store,News America,Marketing
+Display,Digital,Display,Marketing
+Paid Search,Paid Search,Paid Search,Marketing
+Catalina,In Store,Catalina,Marketing
+Snacks TV,TV,Snacks TV,Marketing
+Breeze TV,TV,Breeze TV,Marketing
+SNACKS.Facebook Costs Variable,Social Media,Social Media,Marketing
+SNACKS.Instagram Costs Variable,Social Media,Social Media,Marketing
+SNACKS.Twitter Costs Variable,Social Media,Social Media,Marketing
+SNACKS.Facebook Costs Variable,Social Media,Social Media,Marketing
+BLUE DIAMOND GROWERS-RFG ALM.TPR %ACV - Discount,Trade,Trade,Marketing
+SNACKS.Facebook Costs Variable,Social Media,Social Media,Marketing
+SNACKS.Instagram Costs Variable,Social Media,Social Media,Marketing
+SNACKS.Facebook Costs per Imp Variable,Social Media,Social Media,Marketing
+SNACKS - CANS.Walmart May '16 Rollback,Trade,Trade,Marketing
+SNACKS - BAGS.Walmart April'16 25oz Rollback,Trade,Trade,Marketing
+SNACKS - BAGS.Walmart June '16 14oz Rollback,Trade,Trade,Marketing
+Easter.Dummy,Seasonality,Seasonality,Base
+July 4th.Dummy (WMT),Seasonality,Seasonality,Base
+Memorial Day.Dummy (WMT),Seasonality,Seasonality,Base
+Snacks - CANS.Rollback May-July,Trade,Trade,Marketing
+Custom Var Holiday Down - WMT Breeze.2016 Holiday Down,Seasonality,Seasonality,Base
+ASEPTIC.Rollback Feb-April '16,Trade,Trade,Marketing
+ALMOND BREEZE - ANY ALMOND BREEZE.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+ALMOND BREEZE - CHILLED ONLY.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+SNACKS - BAGS.Base Price (Volume) v4,Base Price,Base Price,Base
+SNACKS - CANS & BAGS.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+SNACKS - CANS ONLY.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+Snacks.Branded,Paid Search,Paid Search,Marketing
+Snacks.Competitive,Paid Search,Paid Search,Competition
+Snacks.General,Paid Search,Paid Search,Marketing
+SNACKS - BAGS.Any Merch Volume v2,Trade,Trade,Marketing
+ALMOND BREEZE - ASEPTIC ONLY.Digital Coupon circulation,In Store,Digital Coupons,Marketing
+Almond Breeze.Branded,Paid Search,Paid Search,Marketing
+Almond Breeze.Competitive,Paid Search,Paid Search,Competition
+SNACKS - NEW TOTAL.Digital Coupon Circulation ,In Store,Digital Coupons,Marketing
+ALMOND BREEZE - NO CHILLED.Digital Coupon Circulation,In Store,Digital Coupons,Marketing
+SNACKS - NEW TOTAL.Digital Coupon Circulation ,In Store,Digital Coupons,Marketing
